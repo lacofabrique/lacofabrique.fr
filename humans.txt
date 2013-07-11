@@ -1,0 +1,26 @@
+/* TEAM */
+Webdesigner: Florian Herbez
+Site: http://www.fhdesign.fr
+Twitter: @florianherbez
+Location: Calais, France
+
+Developer: Cédric Vannier
+Site: http://barreoblique.fr
+Twitter: @cdrc
+Location: Calais, France
+
+Developer: Benjamin Danon
+Site: http://ficusnode.com
+Twitter: @sphax3d
+Location: Calais, France
+
+Developer: Olivier Kowalski
+Site: http://www.applicook.fr
+Location: Calais, France
+
+/* THANKS */
+Name: Scopyleft
+
+/* SITE */
+Last update: 2013/07/11
+Standards: HTML5, CSS3, hCard
