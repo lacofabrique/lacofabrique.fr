@@ -1,12 +1,15 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
 /* TEAM */
+Writer: Cédric Vannier
+Site: http://barreoblique.fr
+Twitter: @cdrc
+Location: Calais, France
+
 Webdesigner: Florian Herbez
 Site: http://www.fhdesign.fr
 Twitter: @florianherbez
-Location: Calais, France
-
-Developer: Cédric Vannier
-Site: http://barreoblique.fr
-Twitter: @cdrc
 Location: Calais, France
 
 Developer: Benjamin Danon
@@ -16,11 +19,14 @@ Location: Calais, France
 
 Developer: Olivier Kowalski
 Site: http://www.applicook.fr
+Twitter: @olivierkowalski
 Location: Calais, France
 
 /* THANKS */
 Name: Scopyleft
+Site: http://scopyleft.fr/
 
 /* SITE */
-Last update: 2013/07/11
+Last update: 2013/08/02
 Standards: HTML5, CSS3, hCard
+Components: Foundation grid and HTML5shiv + jQuery + jQuery Extra Selectors + Selectivizr + Respond.js for IE 6-8
