@@ -169,6 +169,10 @@ h2 {
   color:#fff;
 }
 
+#references li{
+  margin-bottom:1em;
+}
+
 #references ::selection {
   background:#fff;
   color:#1d1d1d;
@@ -179,18 +183,18 @@ h2 {
   color:#1d1d1d;
 }
 
-#references a {
+#references .reference {
   display:block;
   padding:.5em .625em;
   margin:1em -.625em;
   text-decoration:none;
 }
 
-#references a:hover, #references a:focus {
+#references .reference:hover, #references .reference:focus {
   background:none;
 }
 
-#references a:hover h2, #references a:focus h2 {
+#references .reference:hover h2, #references .reference:focus h2 {
   background:#fff;
   -webkit-border-radius:.1em;
   border-radius:.1em;
