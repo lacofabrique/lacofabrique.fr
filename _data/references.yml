@@ -1,0 +1,60 @@
+- name: Agora
+  description: Conception, design, développement, intégration adaptative, hébergement
+  image: agora.png
+  image_alt: Page d’accueil du site web de l’Agora
+  link_href: http://www.agora-berck.com
+  link_title: Site web de l’Agora
+
+- name: Application mobile BCM
+  description: Développement, intégration, _web service_ (disponible sur AppStore et Google Play)
+  image: bcm-application-mobile.png
+  image_alt: Capture d’écran de l’application mobile du BCM Gravelines Dunkerque
+
+- name: Le Channel
+  description: Reprise d’un projet non terminé. Développement, intégration adaptative
+  image: lechannel.png
+  image_alt: Page d’accueil du site web du Channel
+  link_href: http://www.lechannel.fr
+  link_title: Site web du Channel, scène nationale de Calais
+
+- name: Cinéma Alhambra
+  description: Conception, design, intégration adaptative, hébergement
+  image: alhambra.png
+  image_alt: Page d’un film sur le site web du Cinéma Alhambra
+  link_href: http://cinema-alhambra.org
+  link_title: Site web du Cinéma Alhambra
+
+- name: Elezio
+  description: Développement, intégration adaptative
+  image: elezio.png
+  image_alt: Page d’accueil du site web de Elezio
+  link_href: http://www.elezio.fr
+  link_title: Site web de Elezio
+
+- name: Okazeo.fr
+  description: Développement, intégration adaptative
+  image: okazeo.png
+  image_alt: Page d’accueil du site web d’Okazeo.fr
+  link_href: http://www.okazeo.fr
+  link_title: Site web d’Okazeo.fr
+
+- name: Port de Calais mobile
+  description: Conception, design, développement, intégration
+  image: port-de-calais.png
+  image_alt: Page d’accueil du site mobile du port de Calais
+  link_href: http://m.calais-port.fr
+  link_title: Site web mobile du port de Calais
+
+- name: Sigrenea
+  description: Développement, intégration adaptative
+  image: sigrenea.png
+  image_alt: Page d’accueil du site web de Sigrenea
+  link_href: http://www.sigrenea.com
+  link_title: Site web de Sigrenea
+
+- name: Vanouchkaïa
+  description: Conception, design, développement, intégration adaptative
+  image: vanouchkaia.png
+  image_alt: Page d’accueil du site web de Vanouchkaïa
+  link_href: http://www.vanouchkaia.fr
+  link_title: Site web de Vanouchkaïa

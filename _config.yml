@@ -1,0 +1,16 @@
+title: La Cofabrique
+tagline: Collectif d’artisans du web à Calais
+description: La Cofabrique est un collectif d'artisans des internets, éleveurs de chatons, procurateurs de plaisirs interactifs, nourris aux Haribos et aux chants de mouettes.
+exclude: [README.md, Gemfile, Gemfile.lock, tasks.thor, lacofabrique.fr.nginx.conf]
+url: "http://lacofabrique.fr"
+piwik:
+  base_url: piwik.ficusnode.com
+  site_id: 7
+gems:
+  - jekyll-assets
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

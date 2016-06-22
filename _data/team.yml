@@ -1,0 +1,31 @@
+- name: Benjamin Danon
+  description: Administrateur système
+  image: benjamin-danon.jpg
+  image_alt: Photo de Benjamin Danon
+  link_name: ficusnode.com
+  link_href: http://ficusnode.com
+  link_title: Site web de ficus node, auto-entrepreneur en développement web et administration système
+
+- name: Cédric Vannier
+  description: Concepteur web
+  image: cedric-vannier.jpg
+  image_alt: Photo de Cédric Vannier
+  link_name: barreoblique.fr
+  link_href: http://barreoblique.fr
+  link_title: Site web de Barre oblique, EURL en conception et ergonomie web
+
+- name: Olivier Kowalski
+  description: Développeur web mobile
+  image: olivier-kowalski.jpg
+  image_alt: Photo de Olivier Kowalski
+  link_name: applicook.fr
+  link_href: http://www.applicook.fr
+  link_title: Site web de Applicook, EURL en développement web et mobile
+
+- name: Vincent Jozefczyk
+  description: Graphiste et illustrateur
+  image: vincent-jozefczyk.jpg
+  image_alt: Photo de Vincent Jozefczyk
+  link_name: atelier-masala.com
+  link_href: http://atelier-masala.com
+  link_title: Site web de Vincent Jozefczyk, indépendant en communication, illustration et webdesign

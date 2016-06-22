@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="content-wrapper">
+      <div class="row">
+        <section class="content column">
+          {{ content }}
+        </section>
+      </div>
+    </div>
+    {% include footer.html %}
+    {% js script %}
+    {% include piwik.html %}
+  </body>
+</html>

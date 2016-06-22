@@ -1,0 +1,11 @@
+<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+{% for reference in site.data.references %}
+  <li>
+    {% if reference.link_href %}<a href="{{ reference.link_href }}" title="{{ reference.link_title }}"{% else %}<div{% endif %} class="reference">
+      <h2 id="{{ reference.name | replace:' ','-' }}">{{ reference.name }}</h2>
+      {% img '{{ reference.image }}' alt:'{{ reference.image_alt }}' %}
+    {% if reference.link_href %}</a>{% else %}</div>{% endif %}
+    {{ reference.description | markdownify }}
+  </li>
+{% endfor %}
+</ul>

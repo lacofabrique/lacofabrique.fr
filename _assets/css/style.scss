@@ -1,3 +1,8 @@
+//= require _fonts
+//= require normalize.min
+//= require foundation.min
+/*! Benjamin Danon (sphax3d) 2016-06-22 */
+
 html {
   font-size:62.5%;
   overflow-y:scroll;
@@ -8,7 +13,7 @@ html {
 body {
   background:#f6f6f6;
   color:#5f5f5f;
-  font-family:"Open Sans",sans-serif;
+  font-family:"Open Sans Light", sans-serif;
   font-weight:300;
   font-size:16px;
   font-size:1.6rem;
@@ -51,12 +56,12 @@ h2 {
 }
 
 .header-wrapper {
-  background-image:-webkit-gradient(linear,left top,right top,color-stop(33.3%,#925ca1),color-stop(33.3%,#51bc6f),color-stop(66.6%,#51bc6f),color-stop(66.6%,#e58039));
-  background-image:-webkit-linear-gradient(left,#925ca1 33.3%,#51bc6f 33.3%,#51bc6f 66.6%,#e58039 66.5%);
-  background-image:-moz-linear-gradient(left,#925ca1 33.3%,#51bc6f 33.3%,#51bc6f 66.6%,#e58039 66.5%);
-  background-image:-ms-linear-gradient(left,#925ca1 33.3%,#51bc6f 33.3%,#51bc6f 66.6%,#e58039 66.5%);
-  background-image:-o-linear-gradient(left,#925ca1 33.3%,#51bc6f 33.3%,#51bc6f 66.6%,#e58039 66.5%);
-  background-image:linear-gradient(to right,#925ca1 33.3%,#51bc6f 33.3%,#51bc6f 66.6%,#e58039 66.5%);
+  background-image:-webkit-gradient(linear, left top, right top, color-stop(33.3%, #925ca1), color-stop(33.3%, #51bc6f), color-stop(66.6%, #51bc6f), color-stop(66.6%, #e58039));
+  background-image:-webkit-linear-gradient(left, #925ca1 33.3%, #51bc6f 33.3%, #51bc6f 66.6%, #e58039 66.5%);
+  background-image:-moz-linear-gradient(left, #925ca1 33.3%, #51bc6f 33.3%, #51bc6f 66.6%, #e58039 66.5%);
+  background-image:-ms-linear-gradient(left, #925ca1 33.3%, #51bc6f 33.3%, #51bc6f 66.6%, #e58039 66.5%);
+  background-image:-o-linear-gradient(left, #925ca1 33.3%, #51bc6f 33.3%, #51bc6f 66.6%, #e58039 66.5%);
+  background-image:linear-gradient(to right, #925ca1 33.3%, #51bc6f 33.3%, #51bc6f 66.6%, #e58039 66.5%);
   -moz-background-size:100% .3em;
   background-size:100% .3em;
   background-position:100% 0;
@@ -68,7 +73,7 @@ h2 {
 }
 
 .site-title {
-  font-family:Overlock,sans-serif;
+  font-family:Overlock, sans-serif;
   font-size:32px;
   font-size:3.2rem;
   font-weight:400;
@@ -95,7 +100,7 @@ h2 {
 }
 
 .section-header h1, .content h2 {
-  font-family:Overlock,sans-serif;
+  font-family:Overlock, sans-serif;
   font-size:32px;
   font-size:3.2rem;
   line-height:48px;
@@ -127,7 +132,7 @@ h2 {
   content:counter(production);
   counter-increment:production;
   display:block;
-  font-family:Overlock,sans-serif;
+  font-family:Overlock, sans-serif;
   font-size:32px;
   font-size:3.2rem;
   font-weight:700;
@@ -156,7 +161,7 @@ h2 {
 
 #production strong {
   display:block;
-  font-family:Overlock,sans-serif;
+  font-family:Overlock, sans-serif;
   font-size:20px;
   font-size:2rem;
   font-weight:400;
@@ -169,7 +174,7 @@ h2 {
   color:#fff;
 }
 
-#references li{
+#references li {
   margin-bottom:1em;
 }
 
@@ -178,7 +183,7 @@ h2 {
   color:#1d1d1d;
 }
 
-#references ::-moz-selection{
+#references ::-moz-selection {
   background:#fff;
   color:#1d1d1d;
 }
@@ -190,11 +195,11 @@ h2 {
   text-decoration:none;
 }
 
-#references .reference:hover, #references .reference:focus {
+#references a:hover, #references a:focus {
   background:none;
 }
 
-#references .reference:hover h2, #references .reference:focus h2 {
+#references a:hover h2, #references a:focus h2 {
   background:#fff;
   -webkit-border-radius:.1em;
   border-radius:.1em;
@@ -222,7 +227,9 @@ h2 {
   margin-top:-1.5em;
 }
 
-#coordonnees-texte{color:#333}
+#coordonnees-texte {
+  color:#333;
+}
 
 #coordonnees-texte p:first-child:not(.adr) {
   margin:1.5em 0 0;
@@ -252,7 +259,7 @@ h2 {
 
 #le-collectif ul h2 {
   color:#333;
-  font-family:Overlock,sans-serif;
+  font-family:Overlock, sans-serif;
   font-size:24px;
   font-size:2.4rem;
   margin:1em 0 0;
@@ -271,17 +278,17 @@ h2 {
   border-radius:50%;
 }
 
-.page-footer {
+.site-footer {
   color:#333;
   margin:0 0 1.5em;
 }
 
-.page-footer ul {
+.site-footer ul {
   list-style:none;
   padding:0;
 }
 
-.page-footer li {
+.site-footer li {
   text-align:center;
 }
 
@@ -400,11 +407,11 @@ h2 {
     line-height:2.8rem;
     top:.25em;
   }
-  .page-footer {
+  .site-footer {
     margin-top:-1.5em;
   }
-  .credits:after {
-    content:"Mise en page réalisée par des humains ❤";
+  .credits:before {
+    content:"Mise en page réalisée par des humains";
   }
   .credits-span, .link-mentions-legales {
     display:none;

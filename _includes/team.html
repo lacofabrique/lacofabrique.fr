@@ -1,0 +1,13 @@
+{% markdown %}
+La Cofabrique est actuellement composée de quatre indépendants complémentaires
+
+{% for member in site.data.team %}
+- {% img '{{ member.image }}' alt:'{{ member.image_alt }}' %}
+  
+  ## {{ member.name }}
+  
+  {{ member.description }}
+  
+  [{{ member.link_name }}](member.link_href "member.link_title")
+{% endfor %}{:.small-block-grid-2 .large-block-grid-4}
+{% endmarkdown %}
