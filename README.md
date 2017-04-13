@@ -8,7 +8,7 @@
 
 - Générer le site web :
 
-        $ bundle exec jekyll
+        $ bundle exec jekyll build
 
 - Déployer le site web :
 
