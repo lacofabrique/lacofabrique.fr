@@ -4,15 +4,15 @@
 
 - Installer les dépendances :
 
-        $ bundle
+      $ bundle
 
 - Générer le site web :
 
-        $ bundle exec jekyll build
+      $ bundle exec jekyll build
 
 - Déployer le site web :
 
-        $ bundle exec jekyll deploy
+      $ bundle exec jekyll deploy
 
 ## To-do list
 
